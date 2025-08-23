@@ -39,20 +39,20 @@ nav ul li a {
 }
 .main-content {
     display: flex;
-    background-color: #dedede;
+    background-color: #dedede;;
+    align-items: center;
     margin: 2rem auto;
     max-width: 1100px;
-    border-radius: 8px;
+    width: 100%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     padding: 2rem;
     gap: 2rem;
 }
 .text-section {
-    flex: 1;
     display: flex;
+    margin-top: 0%;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
 }
 .text-section h1 {
     font-size: 2.5rem;
@@ -62,4 +62,53 @@ nav ul li a {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     color: #333
+}
+.menu-images {
+    padding: 50px;    
+    display: flex;
+    gap: .7rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.image-card {
+  position: relative;
+  width: 240px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image-card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+.image-label {
+  position: absolute;
+  bottom: 35px;
+  right: 0px;
+  background: #fff;
+  color: #222;
+  font-weight: bold;
+  padding: 0.6rem .5rem 0.3rem 0.9rem;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  letter-spacing: 1px;
+}
+.meal-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+  padding: 0.6rem 2rem;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+  background: #7bc043;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
